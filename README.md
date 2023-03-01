@@ -1,27 +1,17 @@
-# Next.js + Tailwind CSS Example
+# Clone de ChatGPT
+Ce projet est un clone de ChatGPT d'un modèle de langage conversationnel de pointe développé par OpenAI. L'objectif de ce projet est de permettre aux utilisateurs de créer leur propre chatbot de conversation à partir de ce modèle, en utilisant une interface simple et conviviale.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Fonctionnalités
+Dialogue en langage naturel : ChatGPT peut comprendre et générer des réponses en langage naturel, ce qui permet une conversation plus fluide et plus humaine.
+Génération de texte personnalisé : Les utilisateurs peuvent personnaliser les réponses de ChatGPT en ajoutant leurs propres phrases et expressions.
+Interface utilisateur conviviale : L'interface utilisateur est simple et intuitive, permettant aux utilisateurs de naviguer facilement dans les différentes fonctionnalités.
+## Utilisation
+Pour utiliser ce projet, vous pouvez aller directement sur l'adresse [ChatGPT Clone](https://chat-gpt-clone-antoinequarroz.vercel.app/).
 
-## Deploy your own
+L'application vous présentera une interface utilisateur simple qui vous permettra de poser des questions à ChatGPT et d'interagir avec lui de manière fluide et naturelle.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Contribution
+Les contributions à ce projet sont les bienvenues ! Si vous souhaitez contribuer, veuillez d'abord créer une branche à partir de la branche principale, puis soumettre une demande de fusion une fois que vous avez terminé vos modifications.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Licence
+Ce projet est sous licence MIT, ce qui signifie que vous pouvez l'utiliser librement et modifier le code source à votre guise. Veuillez consulter le fichier LICENSE pour plus d'informations sur les conditions de licence.
