@@ -73,7 +73,7 @@ function ChatInput({ chatId }: Props) {
             message
         );
 
-        const notification = toast.loading("ChatGPT is thinking...");
+        const notification = toast.loading("ChatGPT réfléchit...");
 
         await fetch("/api/askQuestion", {
             method: "POST",
@@ -82,7 +82,7 @@ function ChatInput({ chatId }: Props) {
             },
             body: JSON.stringify({ prompt: input, chatId, model, session }),
         }).then((res) => {
-            toast.success("ChatGPT has responded!", {
+            toast.success("ChatGPT a répondu!", {
                 id: notification,
             });
         });
@@ -96,7 +96,7 @@ function ChatInput({ chatId }: Props) {
             disabled:cursor-not-allowed disabled:text-gray-300
           "
                     value={prompt}
-                    placeholder="Type your message here..."
+                    placeholder="Tapez votre message ici..."
                     onChange={(e) => setPrompt(e.target.value)}
                     disabled={!session}
                 />
