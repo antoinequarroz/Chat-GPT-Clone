@@ -16,7 +16,7 @@ export default async function RootLayout({
   return (
     <html>
       <head>
-          <title>Chat CPT</title>
+          <title>Chat GPT</title>
       </head>
       <body>
       <SessionProvider session={session}>
